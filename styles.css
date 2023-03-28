@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Poppins:ital,wght@1,200&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: lightslategray;
+    color: white;
+}
+strong{
+    color: coral ;
+
+}
+.cabeça__2{
+    display: flex;
+    gap: 80px;
+}
+.cabeça{
+    padding: 2% 0 0 15%  ;
+}
+.cabeça__menu{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+   text-decoration: none;
+ color: aliceblue;
+    
+}
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+} 
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.apresentacao__conteudo__titulo{
+    font: size 2.25rem;;
+    font-family: 'Poppins', sans-serif;
+}
+.apresentacao__conteudo__titulo__texto{
+    font-size: 1.25rem;
+    font-family: 'Kanit', sans-serif;
+
+}
+.divisorialinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.linkss{
+    
+    width: 340px;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 1.56rem;
+    padding: 15px 0;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Kanit', sans-serif;
+    border: 2px solid coral;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+   
+    
+    
+}
+.subtitulo{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+  
+
+}
+.linkss:hover{
+    background-color:darkgrey ;
+}
+
+.rodape{
+    color:black ;
+    background-color: coral;
+    padding:20px ;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+
+}
